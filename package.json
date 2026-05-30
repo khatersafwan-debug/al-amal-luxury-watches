@@ -1,0 +1,16 @@
+{
+  "name": "al-amal-luxury-watches",
+  "version": "1.0.0",
+  "description": "متجر الساعات الفاخرة",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "stripe": "^12.0.0"
+  }
+}
